@@ -1,1 +1,0 @@
-app.activeDocument.resizeImage("300%", "300%", app.activeDocument.resolution, ResampleMethod.NEARESTNEIGHBOR);
