@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE sesx>
+<sesx version="1.9">
+
+  <session appBuild="24.2.0.83" appVersion="24.2" audioChannelType="stereo" bitDepth="32" duration="1440000" sampleRate="48000">
+    <tracks>
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
+        <trackParameters trackHeight="134" trackHue="160" trackMinimized="false">
+          <name>트랙 1</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="e68bc79e-b3e6-4cf2-81ae-999319b38c30" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="9586f8ab-c8ae-482e-9064-faa92527c7cb" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="100dc242-0a4a-4934-a9a7-3c94005de3b7" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="팬" parameterValue="0"/>
+          </component>
+          <component componentGuid="d6f5459a-45c9-44ad-bcd0-04efff6f6381" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="로우 셸프 주파수" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="로우 셸프 게인" parameterValue="0.5"/>
+            <parameter index="2" name="하이 셸프 주파수" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="하이 셸프 게인" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 밴드 1 가운데 주파수" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 밴드 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 밴드 1 게인" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 밴드 1 사용" parameterValue="1"/>
+            <parameter index="8" name="EQ 밴드 2 가운데 주파수" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 밴드 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 밴드 2 게인" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 밴드 2 사용" parameterValue="1"/>
+            <parameter index="12" name="EQ 밴드 3 가운데 주파수" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 밴드 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 밴드 3 게인" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 밴드 3 사용" parameterValue="1"/>
+            <parameter index="16" name="EQ 밴드 4 가운데 주파수" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 밴드 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 밴드 4 게인" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 밴드 4 사용" parameterValue="1"/>
+            <parameter index="20" name="EQ 밴드 5 가운데 주파수" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 밴드 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 밴드 5 게인" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 밴드 5 사용" parameterValue="1"/>
+            <parameter index="24" name="게인" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="로우 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="27" name="하이 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="28" name="매우 작게 모드" parameterValue="0"/>
+            <parameter index="29" name="로우 셸프 사용" parameterValue="1"/>
+            <parameter index="30" name="하이 셸프 사용" parameterValue="1"/>
+            <parameter index="31" name="원래 샘플 속도" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 밴드 1 대역폭" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 밴드 2 대역폭" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 밴드 3 대역폭" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 밴드 4 대역폭" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 밴드 5 대역폭" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="하이 패스 필터 사용" parameterValue="0"/>
+            <parameter index="38" name="하이 패스 차단 주파수" parameterValue="0"/>
+            <parameter index="39" name="하이 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="로우 패스 필터 사용" parameterValue="0"/>
+            <parameter index="41" name="로우 패스 차단 주파수" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="로우 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="무시" parameterValue="0"/>
+            <parameter index="44" name="낮은 그래프 범위" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="706013" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="TitleLogo 48000 1" offline="false" select="false" sourceInPoint="38511" sourceOutPoint="744524" startPoint="0" zOrder="2">
+          <component componentGuid="90b699ce-879b-4557-9a0a-8e6357679fec" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="074e4d63-23ec-43e9-bbfe-b7b8d88f651d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="1cd84cf3-7fb7-47a1-a36e-15ced799e2b2" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="팬" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="706013" shape="19" startPoint="706013" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="true" visible="true">
+        <trackParameters trackHeight="134" trackHue="267" trackMinimized="false">
+          <name>트랙 2</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="ab14e916-2a1a-485d-9569-9dbf42f52e07" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="2d02d437-62c9-45f5-9530-c2bf3aa291d6" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f10135fb-7db7-41f9-b7b9-e5b6fe4f86eb" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="팬" parameterValue="0"/>
+          </component>
+          <component componentGuid="30970752-338d-4f05-96ca-dd17806f5b56" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="로우 셸프 주파수" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="로우 셸프 게인" parameterValue="0.5"/>
+            <parameter index="2" name="하이 셸프 주파수" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="하이 셸프 게인" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 밴드 1 가운데 주파수" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 밴드 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 밴드 1 게인" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 밴드 1 사용" parameterValue="1"/>
+            <parameter index="8" name="EQ 밴드 2 가운데 주파수" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 밴드 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 밴드 2 게인" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 밴드 2 사용" parameterValue="1"/>
+            <parameter index="12" name="EQ 밴드 3 가운데 주파수" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 밴드 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 밴드 3 게인" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 밴드 3 사용" parameterValue="1"/>
+            <parameter index="16" name="EQ 밴드 4 가운데 주파수" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 밴드 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 밴드 4 게인" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 밴드 4 사용" parameterValue="1"/>
+            <parameter index="20" name="EQ 밴드 5 가운데 주파수" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 밴드 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 밴드 5 게인" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 밴드 5 사용" parameterValue="1"/>
+            <parameter index="24" name="게인" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="로우 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="27" name="하이 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="28" name="매우 작게 모드" parameterValue="0"/>
+            <parameter index="29" name="로우 셸프 사용" parameterValue="1"/>
+            <parameter index="30" name="하이 셸프 사용" parameterValue="1"/>
+            <parameter index="31" name="원래 샘플 속도" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 밴드 1 대역폭" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 밴드 2 대역폭" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 밴드 3 대역폭" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 밴드 4 대역폭" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 밴드 5 대역폭" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="하이 패스 필터 사용" parameterValue="0"/>
+            <parameter index="38" name="하이 패스 차단 주파수" parameterValue="0"/>
+            <parameter index="39" name="하이 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="로우 패스 필터 사용" parameterValue="0"/>
+            <parameter index="41" name="로우 패스 차단 주파수" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="로우 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="무시" parameterValue="0"/>
+            <parameter index="44" name="낮은 그래프 범위" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1062673" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="TitleBattle 48000 1" offline="false" select="true" sourceInPoint="0" sourceOutPoint="664170" startPoint="398503" zOrder="9">
+          <component componentGuid="b4723ab3-84e1-41c9-9904-72c270a265f0" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="86867ad0-3958-42a7-83c9-839c162debf4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4a071e5b-db16-4b12-a335-3b4bbfb64e44" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="팬" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="664170" shape="19" startPoint="664170" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
+        <trackParameters trackHeight="134" trackHue="51" trackMinimized="false">
+          <name>트랙 3</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="d61bab78-bdec-4127-9175-32f2cafb321e" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="d190ffba-5c44-4cbb-9390-2e47b86a49b6" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="8fe543c8-cf8c-4896-8f0e-cf82090fdc0d" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="팬" parameterValue="0"/>
+          </component>
+          <component componentGuid="4565eb5f-3a47-46e2-b0cf-b912e4eefce4" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="로우 셸프 주파수" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="로우 셸프 게인" parameterValue="0.5"/>
+            <parameter index="2" name="하이 셸프 주파수" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="하이 셸프 게인" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 밴드 1 가운데 주파수" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 밴드 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 밴드 1 게인" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 밴드 1 사용" parameterValue="1"/>
+            <parameter index="8" name="EQ 밴드 2 가운데 주파수" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 밴드 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 밴드 2 게인" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 밴드 2 사용" parameterValue="1"/>
+            <parameter index="12" name="EQ 밴드 3 가운데 주파수" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 밴드 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 밴드 3 게인" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 밴드 3 사용" parameterValue="1"/>
+            <parameter index="16" name="EQ 밴드 4 가운데 주파수" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 밴드 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 밴드 4 게인" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 밴드 4 사용" parameterValue="1"/>
+            <parameter index="20" name="EQ 밴드 5 가운데 주파수" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 밴드 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 밴드 5 게인" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 밴드 5 사용" parameterValue="1"/>
+            <parameter index="24" name="게인" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="로우 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="27" name="하이 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="28" name="매우 작게 모드" parameterValue="0"/>
+            <parameter index="29" name="로우 셸프 사용" parameterValue="1"/>
+            <parameter index="30" name="하이 셸프 사용" parameterValue="1"/>
+            <parameter index="31" name="원래 샘플 속도" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 밴드 1 대역폭" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 밴드 2 대역폭" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 밴드 3 대역폭" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 밴드 4 대역폭" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 밴드 5 대역폭" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="하이 패스 필터 사용" parameterValue="0"/>
+            <parameter index="38" name="하이 패스 차단 주파수" parameterValue="0"/>
+            <parameter index="39" name="하이 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="로우 패스 필터 사용" parameterValue="0"/>
+            <parameter index="41" name="로우 패스 차단 주파수" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="로우 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="무시" parameterValue="0"/>
+            <parameter index="44" name="낮은 그래프 범위" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
+        <trackParameters trackHeight="134" trackHue="182" trackMinimized="false">
+          <name>트랙 4</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="b8a54c80-d4b8-4e34-8973-d9d9873b7864" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e88ff673-05a1-4961-bccd-eec3cfa37742" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4b0b6b23-c2f3-4a34-ab35-541b7e28ec80" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="팬" parameterValue="0"/>
+          </component>
+          <component componentGuid="1a1a32e1-a84c-4982-8553-353e0e6459b5" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="로우 셸프 주파수" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="로우 셸프 게인" parameterValue="0.5"/>
+            <parameter index="2" name="하이 셸프 주파수" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="하이 셸프 게인" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 밴드 1 가운데 주파수" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 밴드 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 밴드 1 게인" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 밴드 1 사용" parameterValue="1"/>
+            <parameter index="8" name="EQ 밴드 2 가운데 주파수" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 밴드 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 밴드 2 게인" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 밴드 2 사용" parameterValue="1"/>
+            <parameter index="12" name="EQ 밴드 3 가운데 주파수" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 밴드 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 밴드 3 게인" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 밴드 3 사용" parameterValue="1"/>
+            <parameter index="16" name="EQ 밴드 4 가운데 주파수" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 밴드 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 밴드 4 게인" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 밴드 4 사용" parameterValue="1"/>
+            <parameter index="20" name="EQ 밴드 5 가운데 주파수" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 밴드 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 밴드 5 게인" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 밴드 5 사용" parameterValue="1"/>
+            <parameter index="24" name="게인" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="로우 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="27" name="하이 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="28" name="매우 작게 모드" parameterValue="0"/>
+            <parameter index="29" name="로우 셸프 사용" parameterValue="1"/>
+            <parameter index="30" name="하이 셸프 사용" parameterValue="1"/>
+            <parameter index="31" name="원래 샘플 속도" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 밴드 1 대역폭" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 밴드 2 대역폭" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 밴드 3 대역폭" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 밴드 4 대역폭" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 밴드 5 대역폭" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="하이 패스 필터 사용" parameterValue="0"/>
+            <parameter index="38" name="하이 패스 차단 주파수" parameterValue="0"/>
+            <parameter index="39" name="하이 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="로우 패스 필터 사용" parameterValue="0"/>
+            <parameter index="41" name="로우 패스 차단 주파수" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="로우 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="무시" parameterValue="0"/>
+            <parameter index="44" name="낮은 그래프 범위" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
+        <trackParameters trackHeight="134" trackHue="294" trackMinimized="false">
+          <name>트랙 5</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="4f7a52cd-3b15-4646-b24e-0776336dfa7d" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="f4ab61f0-d57c-4f49-ab19-2c0373096c99" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="fcd21aab-a276-4744-8882-7a3901c345ea" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="팬" parameterValue="0"/>
+          </component>
+          <component componentGuid="07fb8c05-6791-468c-8d37-cb86cac92e19" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="로우 셸프 주파수" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="로우 셸프 게인" parameterValue="0.5"/>
+            <parameter index="2" name="하이 셸프 주파수" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="하이 셸프 게인" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 밴드 1 가운데 주파수" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 밴드 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 밴드 1 게인" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 밴드 1 사용" parameterValue="1"/>
+            <parameter index="8" name="EQ 밴드 2 가운데 주파수" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 밴드 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 밴드 2 게인" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 밴드 2 사용" parameterValue="1"/>
+            <parameter index="12" name="EQ 밴드 3 가운데 주파수" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 밴드 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 밴드 3 게인" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 밴드 3 사용" parameterValue="1"/>
+            <parameter index="16" name="EQ 밴드 4 가운데 주파수" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 밴드 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 밴드 4 게인" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 밴드 4 사용" parameterValue="1"/>
+            <parameter index="20" name="EQ 밴드 5 가운데 주파수" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 밴드 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 밴드 5 게인" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 밴드 5 사용" parameterValue="1"/>
+            <parameter index="24" name="게인" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="로우 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="27" name="하이 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="28" name="매우 작게 모드" parameterValue="0"/>
+            <parameter index="29" name="로우 셸프 사용" parameterValue="1"/>
+            <parameter index="30" name="하이 셸프 사용" parameterValue="1"/>
+            <parameter index="31" name="원래 샘플 속도" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 밴드 1 대역폭" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 밴드 2 대역폭" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 밴드 3 대역폭" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 밴드 4 대역폭" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 밴드 5 대역폭" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="하이 패스 필터 사용" parameterValue="0"/>
+            <parameter index="38" name="하이 패스 차단 주파수" parameterValue="0"/>
+            <parameter index="39" name="하이 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="로우 패스 필터 사용" parameterValue="0"/>
+            <parameter index="41" name="로우 패스 차단 주파수" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="로우 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="무시" parameterValue="0"/>
+            <parameter index="44" name="낮은 그래프 범위" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10006" index="6" select="false" visible="true">
+        <trackParameters trackHeight="134" trackHue="92" trackMinimized="false">
+          <name>트랙 6</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="412cd6e3-33e2-45b6-947a-f66d708d216b" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="9f836a90-14c2-490b-86bd-ae068796f01d" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="524d493a-7158-45f7-80e8-d40d09c25f0c" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="팬" parameterValue="0"/>
+          </component>
+          <component componentGuid="10442b9e-2270-4a67-b416-2a8277092c4b" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="로우 셸프 주파수" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="로우 셸프 게인" parameterValue="0.5"/>
+            <parameter index="2" name="하이 셸프 주파수" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="하이 셸프 게인" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 밴드 1 가운데 주파수" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 밴드 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 밴드 1 게인" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 밴드 1 사용" parameterValue="1"/>
+            <parameter index="8" name="EQ 밴드 2 가운데 주파수" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 밴드 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 밴드 2 게인" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 밴드 2 사용" parameterValue="1"/>
+            <parameter index="12" name="EQ 밴드 3 가운데 주파수" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 밴드 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 밴드 3 게인" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 밴드 3 사용" parameterValue="1"/>
+            <parameter index="16" name="EQ 밴드 4 가운데 주파수" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 밴드 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 밴드 4 게인" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 밴드 4 사용" parameterValue="1"/>
+            <parameter index="20" name="EQ 밴드 5 가운데 주파수" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 밴드 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 밴드 5 게인" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 밴드 5 사용" parameterValue="1"/>
+            <parameter index="24" name="게인" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="로우 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="27" name="하이 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="28" name="매우 작게 모드" parameterValue="0"/>
+            <parameter index="29" name="로우 셸프 사용" parameterValue="1"/>
+            <parameter index="30" name="하이 셸프 사용" parameterValue="1"/>
+            <parameter index="31" name="원래 샘플 속도" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 밴드 1 대역폭" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 밴드 2 대역폭" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 밴드 3 대역폭" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 밴드 4 대역폭" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 밴드 5 대역폭" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="하이 패스 필터 사용" parameterValue="0"/>
+            <parameter index="38" name="하이 패스 차단 주파수" parameterValue="0"/>
+            <parameter index="39" name="하이 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="로우 패스 필터 사용" parameterValue="0"/>
+            <parameter index="41" name="로우 패스 차단 주파수" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="로우 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="무시" parameterValue="0"/>
+            <parameter index="44" name="낮은 그래프 범위" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <masterTrack automationLaneOpenState="false" id="10000" index="7" select="false" visible="true">
+        <trackParameters trackHeight="134" trackHue="-1" trackMinimized="false">
+          <name>혼합</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="1" type="hardwareOutput"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="06509544-0e08-4987-a20b-4bdd1047fc7d" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="5090706c-28cf-4d1a-abfb-2d488cb25ea2" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="fcbd6e63-3bae-49e2-8416-af19c0a60d29" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="팬" parameterValue="0"/>
+          </component>
+          <component componentGuid="80fbea8e-3786-4256-b9ec-8da326342493" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="로우 셸프 주파수" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="로우 셸프 게인" parameterValue="0.5"/>
+            <parameter index="2" name="하이 셸프 주파수" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="하이 셸프 게인" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 밴드 1 가운데 주파수" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 밴드 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 밴드 1 게인" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 밴드 1 사용" parameterValue="1"/>
+            <parameter index="8" name="EQ 밴드 2 가운데 주파수" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 밴드 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 밴드 2 게인" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 밴드 2 사용" parameterValue="1"/>
+            <parameter index="12" name="EQ 밴드 3 가운데 주파수" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 밴드 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 밴드 3 게인" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 밴드 3 사용" parameterValue="1"/>
+            <parameter index="16" name="EQ 밴드 4 가운데 주파수" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 밴드 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 밴드 4 게인" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 밴드 4 사용" parameterValue="1"/>
+            <parameter index="20" name="EQ 밴드 5 가운데 주파수" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 밴드 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 밴드 5 게인" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 밴드 5 사용" parameterValue="1"/>
+            <parameter index="24" name="게인" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="로우 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="27" name="하이 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="28" name="매우 작게 모드" parameterValue="0"/>
+            <parameter index="29" name="로우 셸프 사용" parameterValue="1"/>
+            <parameter index="30" name="하이 셸프 사용" parameterValue="1"/>
+            <parameter index="31" name="원래 샘플 속도" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 밴드 1 대역폭" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 밴드 2 대역폭" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 밴드 3 대역폭" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 밴드 4 대역폭" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 밴드 5 대역폭" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="하이 패스 필터 사용" parameterValue="0"/>
+            <parameter index="38" name="하이 패스 차단 주파수" parameterValue="0"/>
+            <parameter index="39" name="하이 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="로우 패스 필터 사용" parameterValue="0"/>
+            <parameter index="41" name="로우 패스 차단 주파수" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="로우 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="무시" parameterValue="0"/>
+            <parameter index="44" name="낮은 그래프 범위" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </masterTrack>
+    </tracks>
+    <sessionState ctiPosition="486297" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="486297"/>
+      <viewState horizontalViewDuration="110585" horizontalViewStart="349118" trackControlsWidth="232" verticalScrollOffset="0"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
+      <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
+    </sessionState>
+    <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c001 79.c0204b2, 2023/02/09-06:26:14        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
+         <xmp:CreatorTool>Adobe Audition 24.2 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2024-02-25T18:59:33+09:00</xmp:CreateDate>
+         <xmp:MetadataDate>2024-02-25T19:13:40+09:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2024-02-25T19:13:40+09:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:0755b3b9-1a47-c64d-8c0f-888205bc737a</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:4aec58aa-f7c9-654c-9cc6-c1131880fdfb</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:4aec58aa-f7c9-654c-9cc6-c1131880fdfb</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4aec58aa-f7c9-654c-9cc6-c1131880fdfb</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T18:59:33+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6a3c1ef0-f47e-d141-9da2-751f61a913e5</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:02:12+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:342702c5-e491-3c49-977b-db92d4636804</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:02:12+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:93ba83bc-2391-5c48-a5e4-9326d5ceed05</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:06:10+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b36dbd5f-d5e6-9546-9366-06308449699f</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:06:10+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:479f5abd-879c-7b47-9697-d1b7970d5c42</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:09:55+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4dddca9e-32db-c945-87e1-91224c8974e2</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:09:55+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9634f108-68a5-6f4f-9bb7-1cea64a8f97f</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:10:56+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9ac0fca1-7886-8f4c-9816-8c475f30049a</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:10:56+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:730d23d6-bf31-0e44-ad53-d24200851d35</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:11:53+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2232501f-bc1d-c94d-8213-cb4bce9430dd</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:11:53+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cf9129f3-e3c7-8d47-a09c-333f01e11114</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:13:40+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0755b3b9-1a47-c64d-8c0f-888205bc737a</stEvt:instanceID>
+                  <stEvt:when>2024-02-25T19:13:40+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <dc:format>application/xml</dc:format>
+         <xmpDM:Tracks>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Cue</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Track</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>Subclip Markers</xmpDM:trackName>
+                  <xmpDM:trackType>InOut</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpDM:Tracks>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>]]></xmpMetadata>
+    <clipGroups/>
+    <metronome enabled="false" pattern="downBeat subdivision subdivision subdivision " soundSet="sticks">
+      <metronomeTrack automationLaneOpenState="false" id="40000" index="0" select="false" visible="false">
+        <trackParameters trackHeight="77" trackHue="-1" trackMinimized="false">
+          <name>메트로놈</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="b3ee82f8-6f55-4bba-babe-6811a7d35576" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.50118720531463623046875"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="8113af9e-184b-4da4-be64-ea48b87c2998" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="d2833ab6-2906-420e-a79c-73a6d89a7532" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="팬" parameterValue="0"/>
+          </component>
+          <component componentGuid="58519e45-b495-4c78-b343-64dc62e08e51" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="로우 셸프 주파수" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="로우 셸프 게인" parameterValue="0.5"/>
+            <parameter index="2" name="하이 셸프 주파수" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="하이 셸프 게인" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 밴드 1 가운데 주파수" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 밴드 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 밴드 1 게인" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 밴드 1 사용" parameterValue="1"/>
+            <parameter index="8" name="EQ 밴드 2 가운데 주파수" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 밴드 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 밴드 2 게인" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 밴드 2 사용" parameterValue="1"/>
+            <parameter index="12" name="EQ 밴드 3 가운데 주파수" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 밴드 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 밴드 3 게인" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 밴드 3 사용" parameterValue="1"/>
+            <parameter index="16" name="EQ 밴드 4 가운데 주파수" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 밴드 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 밴드 4 게인" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 밴드 4 사용" parameterValue="1"/>
+            <parameter index="20" name="EQ 밴드 5 가운데 주파수" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 밴드 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 밴드 5 게인" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 밴드 5 사용" parameterValue="1"/>
+            <parameter index="24" name="게인" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="로우 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="27" name="하이 셸프 필터 순서" parameterValue="0"/>
+            <parameter index="28" name="매우 작게 모드" parameterValue="0"/>
+            <parameter index="29" name="로우 셸프 사용" parameterValue="1"/>
+            <parameter index="30" name="하이 셸프 사용" parameterValue="1"/>
+            <parameter index="31" name="원래 샘플 속도" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 밴드 1 대역폭" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 밴드 2 대역폭" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 밴드 3 대역폭" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 밴드 4 대역폭" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 밴드 5 대역폭" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="하이 패스 필터 사용" parameterValue="0"/>
+            <parameter index="38" name="하이 패스 차단 주파수" parameterValue="0"/>
+            <parameter index="39" name="하이 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="로우 패스 필터 사용" parameterValue="0"/>
+            <parameter index="41" name="로우 패스 차단 주파수" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="로우 패스 기울기" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="무시" parameterValue="0"/>
+            <parameter index="44" name="낮은 그래프 범위" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </metronomeTrack>
+    </metronome>
+    <properties>
+      <property key="EssentialSoundConfigurations">[{"Guid":"a8b40e3e-13e7-4c1f-b382-96058f1f691d","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"ambience","Models":{"model_ducking":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-30},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/LargeRoomAmbience=Large Room Ambience":{"type":"array::float","value":[0.051507499068975449,0.32432401180267334,0.29292899370193481,0.30000001192092896,0.20000000298023224,0,0.14285700023174286,0.40000000596046448,0.5,0.69999998807907104,0.30000001192092896,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideAmbience=Outside Ambience":{"type":"array::float","value":[0.091708503663539886,0.043893899768590927,1,0.5,0.20000000298023224,0.80000001192092896,0.18367299437522888,1,0.5,0,0.80000001192092896,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomAmbience=Room Ambience":{"type":"array::float","value":[0.057788901031017303,0.44944900274276733,0.49494898319244385,0.89999997615814209,0.10000000149011612,0.15000000596046448,0.081632703542709351,0.40000000596046448,0.5,0.80000001192092896,0.20000000298023224,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WindEffect=Wind Effect":{"type":"array::float","value":[0.19597999751567841,0.6896899938583374,0.69696998596191406,0.25,0.5,0.5,0.23469400405883789,0.51999998092651367,0.5,0.75,0.25,0.25125628709793091,0.03125]}}}},"model_stereowidth":{},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"58dc27a8-6a2a-480c-bd0c-4b45fff346a6","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"dialog","Models":{"model_clarity":{"EQPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/EQPreset/BackgroundVoice=Background Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5,0.5,0.47827938199043274,0.45772689580917358,0.45778733491897583,0.47946760058403015,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/Intercom=Intercom":{"type":"array::float","value":[0.19432899355888367,0.5,1,0,0.071499988436698914,0.071499988436698914,0.071499988436698914,0.40238627791404724,0.48571401834487915,0.5,0.55155748128890991,0.59602576494216919,0.22246670722961426,0.071499988436698914,0]},"$$$/app/Presets/EssentialSound/EQPreset/LockedInTheTrunk=Locked in the Trunk":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.5,0.5,0.5,0.5,0.5,0.32846158742904663,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OldRadio=Old Radio":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.28442040085792542,0.48315632343292236,0.36498492956161499,0.52853888273239136,0.43511500954627991,0.27154684066772461,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OnTheTelephone=On the Telephone":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.32864287495613098,0.32864287495613098,0.32864287495613098,0.32864287495613098,0.48571401834487915,0.53071397542953491,0.53071397542953491,0.48357096314430237,0.32864287495613098,0.32864287495613098,0]},"$$$/app/Presets/EssentialSound/EQPreset/OutsideOfTheRoom=Outside of the Room":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.42539370059967041,0.47865453362464905,0.5,0.5,0.48571401834487915,0.40073278546333313,0.25656309723854065,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/PodcastVoice=Podcast Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.51789408922195435,0.50770342350006104,0.5,0.51789408922195435,0.528114914894104,0.5102812647819519,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostHighTone=Subtle Boost (High Tone)":{"type":"array::float","value":[0.096553400158882141,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.51933407783508301,0.54642897844314575,0.52706766128540039,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostLowTone=Subtle Boost (Low Tone)":{"type":"array::float","value":[0.096553400158882141,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.5135338306427002,0.54642897844314575,0.51933407783508301,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/ThatPublicRadioSound=That Public Radio Sound":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.36334344744682312,0.49468311667442322,0.5,0.5,0.5,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/VocalPresence=Vocal Presence":{"type":"array::float","value":[0.096553400158882141,0.5,0.32489451766014099,0,0.3572143018245697,0.3572143018245697,0.46428570151329041,0.47857141494750977,0.4763694703578949,0.49570354819297791,0.55924957990646362,0.56523394584655762,0.50859290361404419,0.46992480754852295,0]}}}},"model_loudness":{"DefaultLoudness":{"type":"float","value":-23},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_restoration":{"ReduceNoiseMaxSetting":{"type":"array::float","value":[1,0,0,0,0]},"ReduceNoiseMinSetting":{"type":"array::float","value":[0,0,0,0,0]},"ReduceReverbMaxSetting":{"type":"array::float","value":[1,0,1,0,0]},"ReduceReverbMinSetting":{"type":"array::float","value":[0,0,1,0,0]},"ReduceRumbleMaxSetting":{"type":"array::float","value":[1,0.061583578586578369,0.375,0,0,0.00083333335351198912,1,0,1,0.0390625,0.00083408987848088145,0,0.0041666668839752674,0.00022554649331141263,0.0046875001862645149,0.75,0.0052083334885537624,0.75,1,0.75,0.0040520834736526012,0.75,0.0042629167437553406,0.00022554649331141263,0.0064883334562182426,0.00022554649331141263,0.006866666954010725,0.75,0.0071704164147377014,0.00022554649331141263,0.01041458360850811,0.00022554649331141263,0.010900000110268593,0.75,0.011407917365431786,0.00022554649331141263,0.015606249682605267,0.00022554649331141263,0.016333334147930145,0.75,0.017094582319259644,0.00022554649331141263,0.026243748143315315,0.00022554649331141263,0.0274666678160429,0.75,0.028746666386723518,0.00022554649331141263,0.041658751666545868,0.00022554649331141263,0.043600000441074371,0.75,0.045631669461727142,0.00022554649331141263,0.062424581497907639,0.00022554649331141263,0.065333336591720581,0.75,0.068377502262592316,0.00022554649331141263,0.10497540980577469,0.00022554649331141263,0.1098666712641716,0.75,0.11498583108186722,0.00022554649331141263,0.16663584113121033,0.00022554649331141263,0.17440000176429749,0.75,0.18252624571323395,0.00022554649331141263,0.91874998807907104,0.00022554649331141263,1,0.00022554649331141263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceRumbleMinSetting":{"type":"array::float","value":[1,0.061583578586578369,0.375,0,0,0.00083333335351198912,1,0,1,0.0390625,0.00083408987848088145,0.75,0.0041666668839752674,0.75,0.0046875001862645149,0.75,0.0052083334885537624,0.75,1,0.75,0.91874998807907104,0.61237245798110962,1,0.61237245798110962,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceSibilanceMaxSetting":{"type":"array::float","value":[0.5,0.19983997941017151,0.18367347121238708,0.26086956262588501,0.52702701091766357,0,1,0,0,0,0,0.75,1,1,0.40000000596046448]},"ReduceSibilanceMinSetting":{"type":"array::float","value":[0.875,0.19983997941017151,0.18367347121238708,0.19130434095859528,0.25675675272941589,0,1,0,0,0,0,0.75,1,1,0.40000000596046448]}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/Auditorium=Auditorium":{"type":"array::float","value":[0.013047545216977596,0.15895412862300873,1,0.89999997615814209,0,0.52007436752319336,0.41663265228271484,0.46000000834465027,0.5,0.73000001907348633,0.15999999642372131,0.75376886129379272,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/Church=Church":{"type":"array::float","value":[0.032663315534591675,0.39939939975738525,0.79797977209091187,0.25,0.5,0.5,0.2297959178686142,0.72000002861022949,0.5,0.62999999523162842,0.87999999523162842,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/LargeReflectiveRoom=Large Reflective Room":{"type":"array::float","value":[0.0074449013918638229,0.098988421261310577,0.79890537261962891,0.89999997615814209,0.10000000149011612,0.40110713243484497,0.060284845530986786,0.27522978186607361,0.5,0.73000001907348633,0.31999999284744263,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideTheClub=Outside the Club":{"type":"array::float","value":[0.020615793764591217,0.050136558711528778,0.69696998596191406,0.25,0.094355784356594086,0.22242647409439087,0.1071428582072258,0.2800000011920929,0.5,0.73000001907348633,0.46000000834465027,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/SmallDryRoom=Small Dry Room":{"type":"array::float","value":[0.24623115360736847,0.69975000619888306,0.29292899370193481,0.40000000596046448,0.20000000298023224,0.40000000596046448,0.039285715669393539,0.10000000149011612,0.5,1,0.5,0.75376886129379272,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/ThickenVoice=Thicken Voice":{"type":"array::float","value":[0.19597999751567841,0.23931467533111572,0.69696998596191406,0.25,0.5,0.53999996185302734,0.020408162847161293,0.20945435762405396,0.5,1,0.34999999403953552,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmRoom=Warm Room":{"type":"array::float","value":[0.020100502297282219,0.074074074625968933,0.49494948983192444,0.40000000596046448,0.74960309267044067,0.40000000596046448,0.1239795908331871,0.67000001668930054,0.5,0.85000002384185791,0.56000000238418579,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmVoice=Warm Voice":{"type":"array::float","value":[0.19597989320755005,0.89989989995956421,0,0.40000000596046448,0.20000000298023224,0.40000000596046448,0.10204081982374191,0.090000003576278687,0.5,1,0.30000001192092896,0.25125628709793091,0.03125]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":2},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"353811fa-4179-435e-8e5e-23028ba15a7a","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"generic","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-24},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"31ba96a6-5d3e-4d89-b1e1-1dbe3c055d0c","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"music","Models":{"model_ducking":{},"model_duration":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-25},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"cea63332-1adc-44a9-a6eb-5490f965859b","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"sfx","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-21},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_pan":{},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/HeavyReverb=Heavy Reverb":{"type":"array::float","value":[0.13316600024700165,0.29929900169372559,1,0.95999997854232788,0.85000002384185791,0.5,0.51530599594116211,0.30000001192092896,0.5,0.5,0.5,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/LightReverb=Light Reverb":{"type":"array::float","value":[0.095477402210235596,0.29929900169372559,0.090909101068973541,1,1,0.80000001192092896,0.22449000179767609,0.60000002384185791,0.5,0.69999998807907104,0.30000001192092896,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideReverb=Outside Reverb":{"type":"array::float","value":[0.091708503663539886,0.043893899768590927,1,0.5,0.20000000298023224,0.80000001192092896,0.18367299437522888,1,0.5,0,0.80000001192092896,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomReverb=Room Reverb":{"type":"array::float","value":[0.057788901031017303,0.44944900274276733,0.49494898319244385,0.89999997615814209,0.10000000149011612,0.15000000596046448,0.081632703542709351,0.40000000596046448,0.5,0.80000001192092896,0.20000000298023224,0.25125628709793091,0.0625]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1}]</property>
+    </properties>
+  </session>
+
+  <files>
+    <file absolutePath="C:\Users\Mathlife\source\repos\WinAPI_PokemonFireRed_Resources\WorkSpace\BGM\MultiSession\TitleBattle\Conformed Files\TitleLogo 48000 1.wav" id="0" mediaHandler="AmioWav" relativePath="Conformed Files/TitleLogo 48000 1.wav"/>
+    <file absolutePath="C:\Users\Mathlife\source\repos\WinAPI_PokemonFireRed_Resources\WorkSpace\BGM\MultiSession\TitleBattle\Conformed Files\TitleBattle 48000 1.wav" id="1" mediaHandler="AmioWav" relativePath="Conformed Files/TitleBattle 48000 1.wav"/>
+  </files>
+
+  <audioDevice inputID="22222222-2222-2222-2222-22222222" outputID="11111111-1111-1111-1111-11111111">
+    <inputPort id="1" name="기본 스테레오 입력"/>
+    <inputPort id="2" name="[01M] 시스템 초기화 - 마이크(KT USB Audio) 1"/>
+    <inputPort id="3" name="[02M] 시스템 초기화 - 마이크(KT USB Audio) 2"/>
+    <inputPort id="4" name="[01S] 시스템 초기화 - 마이크(KT USB Audio) 1"/>
+    <outputPort id="1" name="기본 출력"/>
+    <outputPort id="2" name="[01M] 시스템 초기화 - 헤드폰(KT USB Audio) 1"/>
+    <outputPort id="3" name="[02M] 시스템 초기화 - 헤드폰(KT USB Audio) 2"/>
+    <outputPort id="4" name="기본 스테레오 출력"/>
+    <outputPort id="5" name="[01S] 시스템 초기화 - 헤드폰(KT USB Audio) 1"/>
+    <outputPort id="6" name="기본 서라운드 출력"/>
+  </audioDevice>
+
+</sesx>
